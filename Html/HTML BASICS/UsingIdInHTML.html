@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Id in HTML</title>
+    <style>
+        .item{
+            display: inline;
+        }
+        .section{
+            width: 100%;
+            height: 100px;
+            background-color: aquamarine;          
+        }
+        #first{
+            background-color: antiquewhite;
+        }
+        #second{
+            background-color: aqua;
+        }
+        #third{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- navigation in the same page -->
+    <ul style="list-style-type: none;">
+        <li class="item"><a href="#first">Home</a></li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <li class="item"><a href="#second">About</a></li><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <li class="item"><a href="#third">Contact</a></li>
+    </ul> 
+    <!-- use of id -->
+    <div id="first" class="section">
+        <H1>Section-1</H1>
+    </div>    
+    <div id="second" class="section">
+        <H1>Section-2</H1>
+    </div>
+    <div id="third" class="section">
+        <H1>Section-3</H1>
+    </div>
+</body>
+</html>
