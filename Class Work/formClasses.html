@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus{
+            background-color: blueviolet;
+        }
+        input[type='radio']:focus{
+            box-shadow: 0 0 0 3px blue;    /*horizontal offset,  vetical offset blur, thickness, color*/
+        }
+        input[type='checkbox']:focus{
+            box-shadow: 0 0 0 3px rgb(255, 230, 0);    /*horizontal offset,  vetical offset blur, thickness, color*/
+        }
+        input[type='number']:focus{
+            box-shadow: 0 0 0 3px rgb(0, 255, 200);    /*horizontal offset,  vetical offset blur, thickness, color*/
+        }
+        input:required{
+            box-shadow: 0 0 0 3px rgb(94, 255, 0);    /*horizontal offset,  vetical offset blur, thickness, color*/
+        }
+        input:disabled{
+            box-shadow: 0 0 0 3px rgb(255, 25, 0);    /*horizontal offset,  vetical offset blur, thickness, color*/
+        }
+        input:in-range{
+            background-color: blue;
+        }
+        input{
+            margin: 5px;
+            font-weight: 600;
+        }
+        label{
+            margin:5px;
+            font-family: forte;
+            font-weight: 900;
+        }
+        body{
+            background-image: linear-gradient(rgb(45, 17, 189),purple);
+        }
+    </style>
+</head>
+<body>
+    <form action="" style="background-color: rgb(0, 225, 255);width:500px;border:2px solid black;margin-left:400px;margin-top:100px">
+          <label for="">Name:</label> <input type="text" required disabled><br>
+        <label for="">E-mail: </label><input type="email" required><br>
+        <label for="">Password:</label> <input type="password"  required read-write><br>
+        <label for="">Age:</label> <input type="number" min="5" max="20"><br>
+        <label for="">Gender:</label> <input type="radio" name="a">Male
+        <input type="radio" name="a">Female
+        <input type="radio" name="a">Others <br>
+        Certification: <input type="checkbox">FS
+        <input type="checkbox">Java
+        <input type="checkbox">Python
+        <input type="checkbox">CCNA <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
+<!-- form pseudo classes -->
+<!-- 1.focus
+2.required
+3.disabled
+4.read only
+5.read write
+6.invalid
+7.valid 
+8.in-range
+9.out-of-range
+10.enabled-->

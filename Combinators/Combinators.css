@@ -1,0 +1,54 @@
+#pre{
+    font-size: large;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+div > h1{
+    color: rgb(240, 4, 44);
+}
+
+div > h1{
+    color: aqua;
+}
+
+div > p{
+    color: rgb(240, 4, 44);
+}
+
+p > h1{
+    color: rgb(240, 4, 44);
+}
+
+span > h1{
+    color: blue;
+}
+
+span > i{
+    color: blue;
+}
+
+
+ /* descend selector */
+
+ div h1{
+    color: aqua;
+ }
+div div{
+    color: aqua;
+ }
+
+ div span{
+    color: aqua;
+ }
+
+ /* immediate sibling selector */
+ div + h1{
+    color: rgb(47, 0, 255);
+ }
+
+ /* Parent child selector */
+ div ~ h1{
+    color: rgb(47, 0, 255);
+ }

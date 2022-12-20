@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            width: 400px;
+            background-color: azure;
+            padding: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 10px;
+            border-color: rgb(219, 64, 242);
+            border-style: groove;
+            background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+        }
+        p{
+            margin: 0px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        #input{
+            width: 100%;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(0, 234, 255);">
+    <div >
+    <h1 style="text-align:center ;">Sign Up</h1>
+    
+    <form id="form" action="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\Iframe.html">
+       <label>FullName:</label>
+        <input type="text" name="fullname" id="input" required> <br>
+        <p>Email:</p>
+        <input type="email" name="email" id="input"><br>
+        <p>Password:</p>
+        <input type="password" name="password" id="input"><br>
+       <p> Confirm Password: </p>
+        <input type="password" name="confirmPassword" id="input"><br>
+       <p> Gender: </p>
+        <input type="radio" name="male" value="male" required>Male
+        <input type="radio" name="male" value="female">Female
+        <input type="radio" name="male" value="other">Others <br>
+        <p>Age</p>
+        <input type="number" min="23" max="50">
+       <p> Security Question: </p>
+        <select name="dropdown">
+            <option value=""></option>
+            <option  value="first job" >First job</option>
+            <option value="favoriteTeacher">Favourite teacher</option>
+            <option value="favoriteSchool">Favourite school</option>
+        </select>
+        <div style="margin-top: 6px;">
+            <textarea name="anwser" cols="30" rows="10" id="input"></textarea>
+        </div>
+        <div id="input">
+            <input type="checkbox" name="checkbox">I agree to the terms and conditions
+        </div>
+        <input type="submit" value="Login" style="margin-top: 10px;" id="input">
+        <button>select</button>
+
+       <label>First Name :</label> <input type="text"><br>
+       <label>First Name :</label> <input type="text"><br>
+    </form>
+</div>
+</body>
+</html>

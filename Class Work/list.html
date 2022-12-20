@@ -1,0 +1,92 @@
+<!-- Nesting
+    ol within ol
+    ul within ul -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul,li,ol{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+
+    </style>
+</head>
+<body style="background-color: rgba(15, 230, 249, 0.288);">
+    
+    <!-- ordered list within orederd list -->
+    <div style="float:left;margin-left: 300px;">
+    <h1>Animals Categories</h1>
+    <pre>orederd list within ordered list</pre>
+    <ol >
+       <li>Birds Name</li>
+       <ol type="A">
+        <li>Sparrow</li>
+        <li>Pigeon</li>
+        <li>Peacock</li>
+       </ol>
+       <li>Animals Name</li>
+       <ol type="I">
+        <li>Elephant</li>
+        <li>Lion</li>
+        <li>Tiger</li>
+       </ol>
+    </ol>
+    <h1>Animals Categories</h1>
+    <pre>orederd list within unordered list</pre>
+    <ol >
+       <li>Birds Name</li>
+       <ul style="list-style-type: square;">
+        <li>Sparrow</li>
+        <li>Pigeon</li>
+        <li>Peacock</li>
+       </ul>
+       <li>Animals Name</li>
+       <ul style="list-style-type: disk;">
+        <li>Elephant</li>
+        <li>Lion</li>
+        <li>Tiger</li>
+       </ul>
+    </ol>
+    </div>
+    <div style="float : right;margin-right: 300px;">
+    <h1>Animals Categories</h1>
+    <pre>unorederd list within ordered list</pre>
+    <ul >
+       <li>Birds Name</li>
+       <ol type="i">
+        <li>Sparrow</li>
+        <li>Pigeon</li>
+        <li>Peacock</li>
+       </ol>
+       <li>Animals Name</li>
+       <ol type="A">
+        <li>Elephant</li>
+        <li>Lion</li>
+        <li>Tiger</li>
+       </ol>
+    </ul>
+    <h1>Animals Categories</h1>
+    <pre>unorederd list within unordered list</pre>
+    <ul style="list-style-type: circle;">
+       <li>Birds Name</li>
+       <ul style="list-style-type: square;">
+        <li>Sparrow</li>
+        <li>Pigeon</li>
+        <li>Peacock</li>
+       </ul>
+       <li>Animals Name</li>
+       <ul style="list-style-type:georgian ;">
+        <li>Elephant</li>
+        <li>Lion</li>
+        <li>Tiger</li>
+       </ul>
+    </ul>
+</div>
+</body>
+</html>

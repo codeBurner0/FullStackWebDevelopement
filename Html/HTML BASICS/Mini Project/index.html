@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .top{
-            background-color: rgb(0, 166, 255);
-            width: 100%;
-            height: 60px;
-            padding-top: 0.3px;
-        }
-        .list{
-            display: inline;
-            font-size: 25px;
-            padding: 8px;
-            font-weight: 300;
-           
+        .span{
+            font-size: 30px;
+            font-weight: 900;
+            padding-left: 20px;
+            padding-right: 20px;
+            font-family: forte;
         }
         .image{
-            margin: 30px;
-            padding: 7px;
-            margin-bottom: 0px;
-            width: 300px;
+            width: 400px;
             height: 250px;
-            border: solid;
-            border-color: blue;
-            border-radius: 40px;        
+            padding: 5px;
+            border: 2px solid blue;
+            border-radius: 30px;
+        }
+        .caption{
+            font-size: 20px;
+            font-weight: 900;
         }
     </style>
 </head>
-<body style="background-color: rgba(0, 221, 255, 0.378); margin:0px">
-    <!-- top section  -->
-    <div class="top" style="margin: 0px;">
-        <ul style="list-style-type:none" >
-            <li class="list"><b> Index</b></li>
-            <li class="list"><b> Food</b></li>
-            <li class="list"><b> About</b></li>
-        </ul>
-    </div>
-    <!-- middle section -->
-    <div  style="padding-left: 30px;">
-        <h1>Top 5 favourite Foods:</h1>
-        <ul>
-            <li><a href="#first">Burger</a></li>
-            <li><a href="#second">Non-Veg Rolls</a></li>
-            <li><a href="#third">Rajama Chapati</a></li>
-        </ul>
-    </div>
-    <!-- Bottom section -->
-    <div style="text-align: center;">
-        <img src="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\HTML BASICS\Mini Project\images\download (1).png" alt="Burger" id="first" class="image" >
-        <p>Burger</p>
-    </div>
-        <div style="text-align: center;">
-            <img src="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\HTML BASICS\Mini Project\images\images.jpg" alt="Non-Veg Rolls" id="second" class="image">
-            <p>Non-Veg Rolls</p>
+<body style="margin: 0px;background-color:rgba(0, 255, 255, 0.325)">
+    <header>
+        <div style="background-color: blue;padding:10px">
+            <span class="span">Index</span>
+            <span class="span">Food</span>
+            <span class="span">About</span>
         </div>
+    </header>
+    <main>
+        <header style="margin-left: 20px;">
+            <h1 style="margin-bottom: 20px;font-size:50px">Top 3 Fvourite Foods</h1>
+            <ul style="margin-top: 5px;font-weight:800;font-size:25px">
+                <li><a href="#first">Burger</a></li>
+                <li><a href="#second">Non-veg Rolls</a></li>
+                <li><a href="#third">Rajama</a></li>
+            </ul>
+        </header>
+    </main>
+    <footer>
+        <section>
             <div style="text-align: center;">
-                <img src="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\HTML BASICS\Mini Project\images\download.jpg" alt="Rajama Chapati" id="third" class="image">
-                <p>Rajama Chapati</p>
+                <img src="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\HTML BASICS\Mini Project\images\download (1).png" alt="Burger" class="image" id="first">
+                <figcaption class="caption">Burger</figcaption>
             </div>
-    </div>
+        </section>
+        <section style="margin-top:30px ;">
+            <div style="text-align: center;">
+                <img src="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\HTML BASICS\Mini Project\images\images.jpg" alt="Non-veg Rolls" class="image" id="second">
+                <figcaption class="caption">Non-veg Rolls</figcaption>
+            </div>
+        </section>
+        <section style="margin-top:30px ;">
+            <div style="text-align: center;">
+                <img src="C:\Users\Ankit Anand\Desktop\FullStackWebDevelopement\Html\HTML BASICS\Mini Project\images\download (1).png" alt="Rajama" class="image" id="third">
+                <figcaption class="caption">Rajama</figcaption>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

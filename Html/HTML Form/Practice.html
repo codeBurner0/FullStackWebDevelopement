@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 10px groove rgb(255, 7, 7);
+            width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+            border-color: rgb(119, 6, 97);
+            border-style: groove;
+          
+        }
+        label{
+            font-family: forte;
+            font-size: 20px;
+        }
+        input{
+            margin-bottom: 5px;
+            
+        }
+
+        :active{
+            background-color: blue;
+        }
+        :focus{
+            
+            border: 2px solid rgb(255, 0, 51);
+            color:blue;
+            font-family: forte;  
+        }
+        input[type="checkbox"]:focus{
+            border: 3px solid red;
+        }
+        
+        body{
+            margin: 100px;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(42, 206, 200);">
+    <center><h1>Sign Up</h1></center>
+    
+
+    <form action="">
+        <label for="">First Name</label><br>
+        <input type="text" required><br>
+        <label for="">Last Name</label><br>
+        <input type="text"><br>
+        <label for="">E-mail</label><br>
+        <input type="email"><br>
+        <label for="">Password</label><br>
+        <input type="password"><br>
+        <label for="">Age</label><br>
+        <input type="number" min="18" max="50"><br>
+        <label for="">Choose Subjects</label>
+        <input type="checkbox">Maths
+        <input type="checkbox">Physics
+        <input type="checkbox">Chemistry
+        
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+.a{
+    background-color: aqua;
+}
+.b{
+    background-color: red;
+}
+#s{
+    background-color: blue;
+}
+
+/* h1,p,pre,div{
+    color: blue;
+} */
+
+/* *{
+    color: red;
+    background-color: blue;
+} */
+/* div > p{
+    color: red;
+} */
+
+/* p > div{
+ color: yellowgreen;
+} */
+
+div ~ h1{
+    color: rgb(186, 32, 58);
+}

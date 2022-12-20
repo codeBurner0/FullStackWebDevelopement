@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div::first-line{
+            background-color: red;
+        }
+        li::first-letter{
+            background-color: red;
+        }
+        div::selection{
+            background-color: red;
+            color: blue;
+        }
+        li::marker{
+            background-color: rgb(136, 255, 0);
+            color: blue;
+        }
+        p::before{
+            content: "This is element pseudo class";
+            color: rgb(212, 0, 255);
+        }
+        p::after{
+            content: "This is element pseudo class";
+            color: rgb(43, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Ankit anand is the best student in the class.
+        Ankit anand is the best student in the class. 
+        Ankit anand is the best student in the class.
+    </div>
+        <p>
+            Ankit Anand is the ebst student in the class.
+            Ankit Anand is the ebst student in the class.
+            Ankit Anand is the ebst student in the class.
+        </p>
+    <ol>
+        <li>Ankit</li>
+        <li>Vidisha</li>
+        <li>Manvi</li>
+        <li>Suresh</li>
+    </ol>
+</body>
+</html>
+<!-- used tp give effect to some of the content of the element
+Classes 
+1.First letter
+2.First line
+3.selection
+4.marker
+5.before
+6.after -->
+
+<!-- 
+1.common
+2.form level
+3.element level
+ -->

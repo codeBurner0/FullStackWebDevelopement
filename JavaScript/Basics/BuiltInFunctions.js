@@ -1,0 +1,23 @@
+var num=23;
+var num1=23.23456;
+var str ="10.98765";
+var str1="10";
+//fuctions
+var f1=num.toString();
+var f2=num1.toString();
+var f3=parseInt(str);
+var f4=parseFloat(str);
+var f5=num1.toFixed(2);
+console.log(typeof(num));
+console.log(typeof(f1));
+console.log();
+console.log(typeof(num1));
+console.log(typeof(f2));
+console.log();
+console.log(typeof(str));
+console.log(typeof(f3));
+console.log(typeof(f4));
+console.log();
+console.log(typeof(num1));
+console.log(f5);
+console.log(typeof(f5));
