@@ -1,0 +1,10 @@
+#div{
+    width: 120px;
+    margin: auto;
+    border: 2px solid green;
+    text-align: center;
+    box-shadow: -2px -3px 5px red,-5px -5px 5px yellow;
+    /* box-shadow: 2px 3px 5px red; */
+    /* Horizontal scale   Vertical Scale  Spreding  color */
+    /* if you give negative then it works similar to the x and y axis */
+}

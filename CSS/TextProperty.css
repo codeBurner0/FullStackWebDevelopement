@@ -1,0 +1,18 @@
+#div1{
+    border: 2px solid red;
+    float: left;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+    text-align-last: center;
+    /* you can also use justify */
+    text-transform: capitalize;
+    /* you can also use lowercase and uppercase */
+    word-spacing: 12px;
+    /* for increase the space between the words */
+    text-indent: 50px;
+    /* take space from the starting of the paragraph */
+    letter-spacing: 5px;
+    /* for increase the space between the letters */
+}

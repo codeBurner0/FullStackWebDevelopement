@@ -1,0 +1,14 @@
+#div1{
+    border: 2px solid red;
+    float: left;
+}
+#div2{
+    border: 2px solid green;
+    float: right;
+    /* margin-bottom: 60px; */
+}
+#div3{
+    border: 2px solid rgb(0, 32, 128);
+    clear: both;
+    text-align: center;
+}

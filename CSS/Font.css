@@ -1,0 +1,13 @@
+#div1{
+    border: 2px solid red;
+    float: left;
+}
+p{
+    font-family: forte;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-variant: small-caps;
+    line-height: 25px;
+    
+}

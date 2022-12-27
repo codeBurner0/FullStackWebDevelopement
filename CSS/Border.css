@@ -1,0 +1,6 @@
+#div {
+    width: 200px;
+    padding: 10px;
+    border: 2px dotted red;
+    box-shadow: 5px 5px 4px red;
+}
